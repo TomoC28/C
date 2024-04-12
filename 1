@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+
+
+int main(void) {
+	int a,b,c,d,umnozak;
+	float geo;
+	printf("Unesi 4 cijela broja: ");
+	scanf(" %d %d %d %d",&a,&b,&c,&d);
+	umnozak=a*b*c*d;
+	geo=pow((double)umnozak,(double)1/4);
+	printf("Geometrijska sredina brojeva je %.4f",geo);
+	return 0;
+}
